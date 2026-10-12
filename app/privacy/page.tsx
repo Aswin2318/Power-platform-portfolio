@@ -1,0 +1,3 @@
+import type { Metadata } from "next";
+export const metadata: Metadata = { title: "Portfolio note", description: "Privacy and confidentiality note for the portfolio." };
+export default function PrivacyPage() { return <section className="section shell prose"><p className="section-kicker">PORTFOLIO NOTE</p><h1>Confidentiality and demonstration data</h1><p>This portfolio uses original illustrations and synthetic demonstration data. It does not include employer data, client identifiers, internal screenshots, production URLs, API keys, credentials or confidential project details.</p><p>Project case studies are illustrative concepts unless clearly updated with verified personal work and appropriate permission to share it.</p></section>; }
