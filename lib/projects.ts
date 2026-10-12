@@ -41,17 +41,17 @@ export const projects: Project[] = [
     summary: "A centralized Canvas App experience for tracking access credential rotation and compliance activities.",
     cardSolution: "App development and reporting support connected records, date validation, audit history and automated reminders.",
     role: "Power Platform development and reporting support",
-    presentationNote: "Screenshots retain their original layout; personal and record-level details are omitted from the public copies.",
+    presentationNote: "Screenshots retain their supplied layouts with synthetic record examples and neutral profile labels; dashboard totals remain point-in-time examples.",
     screenshots: [{
       src: "/projects/pam-compliance-overview-redacted.png",
-      alt: "Compliance Portal overview with summary cards, charts, and a table with its record values omitted.",
+      alt: "Compliance Portal overview with summary cards, charts and a table of synthetic example records.",
       width: 1329,
       height: 755,
       caption: "PAM and CIO Compliance overview dashboard.",
       privacyMask: true
     }, {
       src: "/projects/pam-credential-rotation-redacted.png",
-      alt: "Credential Rotation screen with summary cards, filters, and record values omitted.",
+      alt: "Credential Rotation screen with summary cards, filters and synthetic example records.",
       width: 1335,
       height: 753,
       caption: "Credential Rotation list and summary cards.",
@@ -64,7 +64,7 @@ export const projects: Project[] = [
       caption: "New credential rotation form, shown as supplied."
     }, {
       src: "/projects/pam-compliance-activities-redacted.png",
-      alt: "Compliance Activities screen with summary cards, filters, and record values omitted.",
+      alt: "Compliance Activities screen with summary cards, filters and synthetic example records.",
       width: 1334,
       height: 751,
       caption: "Compliance Activities list and status fields.",
@@ -100,7 +100,7 @@ export const projects: Project[] = [
       "Make the reason, actor and timestamp available with each tracked date change",
       "Label recreated previews that use synthetic data"
     ],
-    outcome: "The case study describes documented contributions without claiming deployment, adoption or business impact. Its original Power Apps screenshot is shown as supplied."
+    outcome: "The case study describes documented contributions without claiming deployment, adoption or business impact. Screenshots preserve the original interface styling while using synthetic record examples."
   },
   {
     slug: "health-compliance-analytics",
@@ -153,12 +153,12 @@ export const projects: Project[] = [
     summary: "A Power BI dashboard for exploring application usage across sessions, screens, users and time.",
     cardSolution: "The work covered dashboard design, DAX calculations and report validation; public example records are synthetic.",
     role: "Power BI dashboard design and DAX/report validation",
-    presentationNote: "Personal user-level details are omitted from the overview; the focused hourly chart is shown as supplied.",
+    presentationNote: "The overview keeps the supplied report layout with synthetic user and screen labels; KPI figures remain snapshot examples. The focused hourly chart is shown as supplied.",
     screenshots: [{
       src: "/projects/user-activity-dashboard-redacted.png",
-      alt: "AIS Console usage analytics report with KPI cards, activity charts, and user-level values omitted.",
-      width: 1135,
-      height: 884,
+      alt: "Application usage report with KPI cards, activity charts and synthetic user-level examples.",
+      width: 1007,
+      height: 785,
       caption: "Usage analytics overview.",
       privacyMask: true
     }, {
@@ -295,16 +295,16 @@ export const projects: Project[] = [
     theme: "violet",
     screenshots: [{
       src: "/projects/hypercare-query-form-redacted.png",
-      alt: "Hypercare support app with a query submission form and an empty recent-query panel.",
+      alt: "Hypercare support app with a query form, synthetic recent-query examples and neutral submitter avatars.",
       width: 1338,
       height: 751,
       caption: "Raise New Query form and Recent Queries panel.",
       privacyMask: true
     }, {
       src: "/projects/hypercare-query-overview-redacted.png",
-      alt: "Hypercare query overview with filters and a tracking table whose ticket-level values are omitted.",
-      width: 1134,
-      height: 640,
+      alt: "Hypercare query overview with synthetic sample records and neutral unknown-user avatars in the Submitted and Assigned columns.",
+      width: 1338,
+      height: 756,
       caption: "Query Overview filters and tracking table.",
       privacyMask: true
     }],
@@ -346,16 +346,16 @@ export const projects: Project[] = [
     theme: "blue",
     screenshots: [{
       src: "/projects/hypercare-operations-dashboard-redacted.png",
-      alt: "Hypercare operations report with ticket KPI cards, category and team summaries, trend chart and record values omitted.",
-      width: 1134,
-      height: 1090,
+      alt: "Hypercare operations report with ticket KPI cards, category and team summaries, a trend chart and synthetic detail rows.",
+      width: 803,
+      height: 772,
       caption: "Operations dashboard with ticket KPIs, trends and team summaries.",
       privacyMask: true
     }, {
       src: "/projects/hypercare-team-activity-redacted.png",
-      alt: "OPS team activity report with rota and workload measures; employee names are not shown.",
-      width: 1134,
-      height: 530,
+      alt: "OPS team activity report with rota and workload measures and anonymized team-member labels.",
+      width: 1242,
+      height: 581,
       caption: "OPS Team Activity view.",
       privacyMask: true
     }, {
@@ -420,14 +420,14 @@ export const projects: Project[] = [
     }, {
       src: "/projects/workday-add-users.png",
       alt: "Add Users form with empty fields and no user records.",
-      width: 1134,
-      height: 638,
+      width: 1334,
+      height: 750,
       caption: "Add Users form with an empty user list."
     }, {
       src: "/projects/workday-access-management-redacted.png",
       alt: "Workday ADO Retry access-management screen with user, email and team records omitted.",
-      width: 1134,
-      height: 640,
+      width: 1332,
+      height: 752,
       caption: "Admin Dashboard with user-record values omitted.",
       privacyMask: true
     }],
