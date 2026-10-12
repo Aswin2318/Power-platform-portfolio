@@ -153,7 +153,7 @@ export const projects: Project[] = [
     summary: "A Power BI dashboard for exploring application usage across sessions, screens, users and time.",
     cardSolution: "The work covered dashboard design, DAX calculations and report validation; public example records are synthetic.",
     role: "Power BI dashboard design and DAX/report validation",
-    presentationNote: "The overview keeps the supplied report layout with synthetic user and screen labels; KPI figures remain snapshot examples. The focused hourly chart is shown as supplied.",
+    presentationNote: "The overview keeps the supplied report layout with synthetic user and screen labels; KPI figures remain snapshot examples.",
     screenshots: [{
       src: "/projects/user-activity-dashboard-redacted.png",
       alt: "Application usage report with KPI cards, activity charts and synthetic user-level examples.",
@@ -161,12 +161,6 @@ export const projects: Project[] = [
       height: 785,
       caption: "Usage analytics overview.",
       privacyMask: true
-    }, {
-      src: "/projects/user-activity-hourly-chart.png",
-      alt: "Power BI hourly activity breakdown chart showing total sessions by hour, grouped by day of the week.",
-      width: 480,
-      height: 366,
-      caption: "Hourly Activity Breakdown, shown as supplied."
     }],
     technologies: ["Power BI", "DAX", "Power Query", "Dataverse activity logs", "SQL / PostgreSQL where applicable"],
     theme: "aqua",
@@ -194,9 +188,8 @@ export const projects: Project[] = [
     validation: [
       "Validate DAX calculations and report behavior",
       "Keep real user identities and production usage details out of the public recreation",
-      "Identify the hourly chart as an original screenshot rather than a synthetic preview"
     ],
-    outcome: "The hourly chart is shown as supplied and its values are not presented as independently verified portfolio outcomes. The case study focuses on the documented dashboard design, DAX calculations and report validation."
+    outcome: "The public preview uses synthetic detail records and point-in-time values, not independently verified portfolio outcomes. The case study focuses on the documented dashboard design, DAX calculations and report validation."
   },
   {
     slug: "interview-operations-analytics",
@@ -357,13 +350,6 @@ export const projects: Project[] = [
       width: 1242,
       height: 581,
       caption: "OPS Team Activity view.",
-      privacyMask: true
-    }, {
-      src: "/projects/hypercare-ticket-details-redacted.png",
-      alt: "Ticket details summary with assigned-user names omitted and status counts visible.",
-      width: 676,
-      height: 390,
-      caption: "Ticket Details summary.",
       privacyMask: true
     }],
     problem: "Support operations needed reporting that could summarize ticket volume and status while allowing users to explore category, trend and team workload.",
