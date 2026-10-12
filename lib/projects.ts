@@ -187,7 +187,7 @@ export const projects: Project[] = [
     ],
     validation: [
       "Validate DAX calculations and report behavior",
-      "Keep real user identities and production usage details out of the public recreation",
+      "Keep real user identities and production usage details out of the public recreation"
     ],
     outcome: "The public preview uses synthetic detail records and point-in-time values, not independently verified portfolio outcomes. The case study focuses on the documented dashboard design, DAX calculations and report validation."
   },
