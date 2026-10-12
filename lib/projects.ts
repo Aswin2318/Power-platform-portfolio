@@ -41,20 +41,20 @@ export const projects: Project[] = [
     summary: "A centralized Canvas App experience for tracking access credential rotation and compliance activities.",
     cardSolution: "App development and reporting support connected records, date validation, audit history and automated reminders.",
     role: "Power Platform development and reporting support",
-    presentationNote: "The original layout is retained. Public copies use fictional records and show Aswin in the profile footer; dashboard totals remain point-in-time examples.",
+    presentationNote: "Screenshots retain their supplied layouts with synthetic record examples and neutral profile labels; dashboard totals remain point-in-time examples.",
     screenshots: [{
-      src: "/projects/pam-compliance-overview-synthetic.png",
-      alt: "Compliance Portal overview with summary cards, charts, redacted records, and a profile footer labeled Aswin.",
+      src: "/projects/pam-compliance-overview-redacted.png",
+      alt: "Compliance Portal overview with summary cards, charts and a table of synthetic example records.",
       width: 1329,
       height: 755,
-      caption: "PAM and CIO Compliance overview with a synthetic profile footer.",
+      caption: "PAM and CIO Compliance overview dashboard.",
       privacyMask: true
     }, {
-      src: "/projects/pam-credential-rotation-synthetic.png",
-      alt: "Credential Rotation screen with fictional names and rotation IDs in the original table layout.",
+      src: "/projects/pam-credential-rotation-redacted.png",
+      alt: "Credential Rotation screen with summary cards, filters and synthetic example records.",
       width: 1335,
       height: 753,
-      caption: "Credential Rotation list with synthetic sample records.",
+      caption: "Credential Rotation list and summary cards.",
       privacyMask: true
     }, {
       src: "/projects/compliance-new-rotation.png",
@@ -63,11 +63,11 @@ export const projects: Project[] = [
       height: 753,
       caption: "New credential rotation form, shown as supplied."
     }, {
-      src: "/projects/pam-compliance-activities-synthetic.png",
-      alt: "Compliance Activities screen with summary cards, filters, redacted records, and a profile footer labeled Aswin.",
+      src: "/projects/pam-compliance-activities-redacted.png",
+      alt: "Compliance Activities screen with summary cards, filters and synthetic example records.",
       width: 1334,
       height: 751,
-      caption: "Compliance Activities list with a synthetic profile footer.",
+      caption: "Compliance Activities list and status fields.",
       privacyMask: true
     }],
     technologies: ["Power Apps", "Dataverse", "Power Automate", "Teams Adaptive Cards", "Power BI", "Power Fx"],
@@ -100,7 +100,7 @@ export const projects: Project[] = [
       "Make the reason, actor and timestamp available with each tracked date change",
       "Label recreated previews that use synthetic data"
     ],
-    outcome: "The case study describes documented contributions without claiming deployment, adoption or business impact. Its original Power Apps screenshot is shown as supplied."
+    outcome: "The case study describes documented contributions without claiming deployment, adoption or business impact. Screenshots preserve the original interface styling while using synthetic record examples."
   },
   {
     slug: "health-compliance-analytics",
@@ -153,14 +153,20 @@ export const projects: Project[] = [
     summary: "A Power BI dashboard for exploring application usage across sessions, screens, users and time.",
     cardSolution: "The work covered dashboard design, DAX calculations and report validation; public example records are synthetic.",
     role: "Power BI dashboard design and DAX/report validation",
-    presentationNote: "The overview uses fictional enterprise IDs and user names; report metrics remain point-in-time examples.",
+    presentationNote: "The overview keeps the supplied report layout with synthetic user and screen labels; KPI figures remain snapshot examples. The focused hourly chart is shown as supplied.",
     screenshots: [{
-      src: "/projects/user-activity-dashboard-synthetic.png",
-      alt: "Usage analytics report with fictional enterprise IDs and names in its activity tables and user chart.",
-      width: 1135,
-      height: 884,
-      caption: "Usage analytics overview with synthetic user records.",
+      src: "/projects/user-activity-dashboard-redacted.png",
+      alt: "Application usage report with KPI cards, activity charts and synthetic user-level examples.",
+      width: 1007,
+      height: 785,
+      caption: "Usage analytics overview.",
       privacyMask: true
+    }, {
+      src: "/projects/user-activity-hourly-chart.png",
+      alt: "Power BI hourly activity breakdown chart showing total sessions by hour, grouped by day of the week.",
+      width: 480,
+      height: 366,
+      caption: "Hourly Activity Breakdown, shown as supplied."
     }],
     technologies: ["Power BI", "DAX", "Power Query", "Dataverse activity logs", "SQL / PostgreSQL where applicable"],
     theme: "aqua",
@@ -284,22 +290,22 @@ export const projects: Project[] = [
     summary: "A support-query experience for submitting requests and reviewing their status, assignment and history.",
     cardSolution: "The documented interface combines a structured intake form with searchable recent-query and tracking views.",
     role: "Power Apps project; individual responsibilities are not specified in the source document",
-    presentationNote: "Source views remain in document order. Public copies use fictional names, ticket IDs and descriptions; aggregate totals remain point-in-time examples.",
+    presentationNote: "Source screenshots are displayed in document order; personal and ticket-level values are omitted from public copies.",
     technologies: ["Power Apps"],
     theme: "violet",
     screenshots: [{
       src: "/projects/hypercare-query-form-redacted.png",
-      alt: "Hypercare support app with a query submission form and an empty recent-query panel.",
+      alt: "Hypercare support app with a query form, synthetic recent-query examples and neutral submitter avatars.",
       width: 1338,
       height: 751,
       caption: "Raise New Query form and Recent Queries panel.",
       privacyMask: true
     }, {
-      src: "/projects/hypercare-query-overview-synthetic.png",
-      alt: "Hypercare query overview with fictional query IDs, names, descriptions and status values.",
-      width: 1134,
-      height: 640,
-      caption: "Query Overview with synthetic sample records.",
+      src: "/projects/hypercare-query-overview-redacted.png",
+      alt: "Hypercare query overview with synthetic sample records and neutral unknown-user avatars in the Submitted and Assigned columns.",
+      width: 1338,
+      height: 756,
+      caption: "Query Overview filters and tracking table.",
       privacyMask: true
     }],
     problem: "Support requests needed a consistent intake experience and a way to review the state and assignment of existing queries.",
@@ -335,22 +341,29 @@ export const projects: Project[] = [
     summary: "Operations reporting for ticket volumes, status trends, category coverage and team activity.",
     cardSolution: "The documented views bring ticket KPIs, trend analysis, team workload and record-level detail into one reporting experience.",
     role: "Power BI project; individual responsibilities are not specified in the source document",
-    presentationNote: "Source views remain in document order. Public copies use fictional names and ticket details; KPI totals remain point-in-time screenshot values.",
+    presentationNote: "Source screenshots are displayed in document order; personal and ticket-level values are omitted. Report figures are point-in-time examples.",
     technologies: ["Power BI"],
     theme: "blue",
     screenshots: [{
-      src: "/projects/hypercare-operations-dashboard-synthetic.png",
-      alt: "Hypercare operations report with ticket KPIs, category and team summaries, plus fictional assignees and ticket records.",
-      width: 1134,
-      height: 1090,
-      caption: "Operations dashboard with synthetic assignees and ticket records.",
+      src: "/projects/hypercare-operations-dashboard-redacted.png",
+      alt: "Hypercare operations report with ticket KPI cards, category and team summaries, a trend chart and synthetic detail rows.",
+      width: 803,
+      height: 772,
+      caption: "Operations dashboard with ticket KPIs, trends and team summaries.",
       privacyMask: true
     }, {
-      src: "/projects/hypercare-team-activity-synthetic.png",
-      alt: "OPS team activity report with fictional team names and sample workload measures.",
-      width: 1134,
-      height: 530,
-      caption: "OPS Team Activity view with synthetic team names.",
+      src: "/projects/hypercare-team-activity-redacted.png",
+      alt: "OPS team activity report with rota and workload measures and anonymized team-member labels.",
+      width: 1242,
+      height: 581,
+      caption: "OPS Team Activity view.",
+      privacyMask: true
+    }, {
+      src: "/projects/hypercare-ticket-details-redacted.png",
+      alt: "Ticket details summary with assigned-user names omitted and status counts visible.",
+      width: 676,
+      height: 390,
+      caption: "Ticket Details summary.",
       privacyMask: true
     }],
     problem: "Support operations needed reporting that could summarize ticket volume and status while allowing users to explore category, trend and team workload.",
@@ -387,15 +400,15 @@ export const projects: Project[] = [
     summary: "An app interface for reviewing failed ServiceNow-to-Azure DevOps conversions, retry history and access administration.",
     cardSolution: "The documented screens cover retry history, configuration and user-access management without exposing internal configuration values.",
     role: "Power Apps project; individual responsibilities are not specified in the source document",
-    presentationNote: "Public copies use fictional user names, enterprise IDs and retry details. The original layouts are retained; internal configuration values remain omitted.",
+    presentationNote: "Source screenshots are displayed in document order; personal data, ticket details and internal configuration values are omitted.",
     technologies: ["Power Apps", "ServiceNow", "Azure DevOps"],
     theme: "violet",
     screenshots: [{
-      src: "/projects/workday-retry-history-synthetic.png",
-      alt: "ServiceNow ADO Retry overview with fictional incident IDs, team names and retry descriptions.",
+      src: "/projects/workday-retry-history-redacted.png",
+      alt: "Workday ServiceNow ADO Retry overview with KPI cards and a retry-history table whose record values are omitted.",
       width: 1333,
       height: 745,
-      caption: "Overview and Retry History with synthetic records.",
+      caption: "Overview and Retry History.",
       privacyMask: true
     }, {
       src: "/projects/workday-ado-configuration-redacted.png",
@@ -407,15 +420,15 @@ export const projects: Project[] = [
     }, {
       src: "/projects/workday-add-users.png",
       alt: "Add Users form with empty fields and no user records.",
-      width: 1134,
-      height: 638,
+      width: 1334,
+      height: 750,
       caption: "Add Users form with an empty user list."
     }, {
-      src: "/projects/workday-access-management-synthetic.png",
-      alt: "Access-management screen with fictional enterprise IDs, northstar.example email addresses and team names.",
-      width: 1134,
-      height: 640,
-      caption: "Admin Dashboard with synthetic user records.",
+      src: "/projects/workday-access-management-redacted.png",
+      alt: "Workday ADO Retry access-management screen with user, email and team records omitted.",
+      width: 1332,
+      height: 752,
+      caption: "Admin Dashboard with user-record values omitted.",
       privacyMask: true
     }],
     problem: "The documented application provides views for following conversion attempts, examining failures and maintaining related access settings.",
